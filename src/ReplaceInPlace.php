@@ -6,7 +6,7 @@ class ReplaceInPlace
 {
     public static function removeElement(&$nums, $val):int {
         $leftPointer = 0;
-        $rightPoinddter = count($nums) - 1;
+        $rightPointer = count($nums) - 1;
 
         while ($leftPointer <= $rightPointer) {
             if ($nums[$leftPointer] === $val) {
